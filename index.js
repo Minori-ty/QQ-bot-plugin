@@ -12,3 +12,5 @@ ws.listen(data => {
 
   plugins.forEach(plugin => plugin({ data, ws, http }))
 })
+
+console.log('连接上go-cqhttp...');
