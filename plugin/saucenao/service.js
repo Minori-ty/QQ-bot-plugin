@@ -1,8 +1,8 @@
 const axios = require('axios')
 
-function search() {
+function search(img) {
     try {
-        // axios.get('')
+        // axios.post(img)
         return [
             {
                 type: 'image',
